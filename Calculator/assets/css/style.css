@@ -1,0 +1,42 @@
+body {
+    background-color: lightgreen;
+}
+
+
+.frame {
+    max-width: 400px;
+    margin: 27vh auto;
+    background-color: black;
+}
+
+#screen {
+    text-align: right;
+    height: 70px;
+    font-size: 20px;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.button {
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    font-size: 20px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+#equal {
+    background-color: blue;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
