@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+}
+
+.TopBar {
+    margin: 20px 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.TopBar a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: "Poppins", serif;
+    float: left;
+    padding: 0 12px;
+
+}
+
+.TopBar a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.TopBar a.RightTopBar {
+    float: right;
+}
+
+.HorizontalLine {
+    border: 2px white solid;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}

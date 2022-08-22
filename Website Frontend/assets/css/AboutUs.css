@@ -1,0 +1,27 @@
+#aboutUs {
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding: 0 12px;
+    font-size: 40px;
+    font-family: "Poppins", serif;
+
+    margin: 20px 15px;
+    overflow: hidden;
+}
+
+#textUnder {
+    float: left;
+    line-height: 1.8;
+    color: white;
+    font-size: 28px;
+    font-family: "Poppins", serif;
+}
+
+
+img {
+    position: relative;
+    top: -50px;
+    right: 110px;
+    float: right;
+}

@@ -1,0 +1,11 @@
+#Cart {
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding: 0 12px;
+    font-size: 25px;
+    font-family: "Poppins", serif;
+
+    margin: 20px 15px;
+    overflow: hidden;
+}
