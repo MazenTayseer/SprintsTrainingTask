@@ -1,0 +1,12 @@
+<div class="product">
+
+    <div class="category-content">
+        <img [src]="product.imageUrl" alt="">
+        <h4>
+            {{product.name}} <br>
+            US ${{product.price}}
+        </h4>
+    </div>
+
+    <button type="button" *ngIf="!isAddedToCart" (click)="addToCart()">Add to Cart</button>
+</div>

@@ -1,0 +1,31 @@
+/* 
+GREY - #2f2e2e
+LIGHT GREY - #cfd0cd */
+
+* {
+    color: #2f2e2e;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 50px auto;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    column-gap: 40px;
+    row-gap: 40px;
+
+    text-align: center;
+
+    height: fit-content;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 30px;
+
+}

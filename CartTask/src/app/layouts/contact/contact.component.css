@@ -1,0 +1,32 @@
+.menu-items {
+    position: absolute;
+    width: 90px;
+    display: grid;
+    grid-column: repeat(1, 1fr);
+
+    position:fixed;
+    top:0;
+    z-index:100;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px auto;
+    border-radius: 50%;
+
+    color: white;
+    background-color: #2f2e2e;
+}
+
+.fa:hover {
+    opacity: 70%;
+}
+
+#top-icon {
+    margin-top: 300px;
+}
+
